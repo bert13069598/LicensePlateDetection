@@ -1,9 +1,7 @@
 # LicensePlateDetection
-### python version
-3.9
+#### python version == 3.9
 
-### kernel version
-6.0.12
+#### kernel version == 6.0.12
 
 ## data resource
 [Plate Detection](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection)
@@ -35,21 +33,12 @@ keyboard input = 'c'
 ## result
 keyboard input = 'd'
 
-[TFLite_detection_image_license.py](https://github.com/bert13069598/LicensePlateDetection/blob/master/TFLite_detection_image_license.py)
-
-[detect_plate.tflite](https://github.com/bert13069598/LicensePlateDetection/blob/master/detect_plate.tflite)
-
-[labelmap.txt](https://github.com/bert13069598/LicensePlateDetection/blob/master/labelmap.txt)
+python3 [TFLite_detection_image_license.py](https://github.com/bert13069598/LicensePlateDetection/blob/master/TFLite_detection_image_license.py) --modeldir= --[labelmap.txt](https://github.com/bert13069598/LicensePlateDetection/blob/master/labelmap.txt) --image=test_license2.png --save_results --noshow_results --graph=[detect_plate.tflite](https://github.com/bert13069598/LicensePlateDetection/blob/master/detect_plate.tflite)
 
 <img src="https://github.com/bert13069598/LicensePlateDetection/blob/master/results/test_license2.png">
 
 ##
-
-[TFLite_detection_image.py](https://github.com/bert13069598/LicensePlateDetection/blob/master/TFLite_detection_image.py)
-
-[detect_number2.tflite](https://github.com/bert13069598/LicensePlateDetection/blob/master/detect_number2.tflite)
-
-[labelmap2.txt](https://github.com/bert13069598/LicensePlateDetection/blob/master/labelmap2.txt)
+python3 [TFLite_detection_image.py](https://github.com/bert13069598/LicensePlateDetection/blob/master/TFLite_detection_image.py) --modeldir= --labels=[labelmap2.txt](https://github.com/bert13069598/LicensePlateDetection/blob/master/labelmap2.txt) --image=./results/test_license2_crop0.png --save_results --noshow_results --graph=[detect_number2.tflite](https://github.com/bert13069598/LicensePlateDetection/blob/master/detect_number2.tflite)
 
 <img src="https://github.com/bert13069598/LicensePlateDetection/blob/master/results/test_license2_crop0.png">
 
