@@ -13,7 +13,7 @@
 
 ## prerequisite
 
-## start program
+## start program with insert module
 ```bash
 sudo insmod gpio_driver.ko
 sudo insmod seg_driver.ko
@@ -47,7 +47,7 @@ keyboard input = 'd'
 
 <img src="https://github.com/bert13069598/LicensePlateDetection/blob/master/results/test_license2_crop0.png">
 
-## quit program
+## quit program with remove module
 keyborad input = 'q'
 ```bash
 sudo rmmod gpio_driver.ko
