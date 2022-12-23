@@ -12,7 +12,13 @@
 자동차 차종/연식/번호판 인식용 영상이미지
 
 ## prerequisite
-
+```bash
+chmod +x install_cv4.5.1_rasbian.sh
+chmod +x install_tensorflowlite2.6.0_rasbian.sh
+./install_cv4.5.1_rasbian.sh
+./install_tensorflowlite2.6.0_rasbian.sh
+pip3 install https://github.com/google-coral/pycoral/releases/download/v2.0.0/tflite_runtime-2.5.0.post1-cp39-cp39-linux_armv7l.whl
+```
 ## start program with insert module
 ```bash
 sudo insmod gpio_driver.ko
