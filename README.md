@@ -19,7 +19,7 @@ chmod +x install_tensorflowlite2.6.0_rasbian.sh
 ./install_tensorflowlite2.6.0_rasbian.sh
 pip3 install https://github.com/google-coral/pycoral/releases/download/v2.0.0/tflite_runtime-2.5.0.post1-cp39-cp39-linux_armv7l.whl
 ```
-## start program with insert module
+## start program with inserting module
 ```bash
 sudo insmod gpio_driver.ko
 sudo insmod seg_driver.ko
@@ -53,7 +53,7 @@ keyboard input = 'd'
 
 <img src="https://github.com/bert13069598/LicensePlateDetection/blob/master/results/test_license2_crop0.png">
 
-## quit program with remove module
+## quit program with removing module
 keyborad input = 'q'
 ```bash
 sudo rmmod gpio_driver.ko
