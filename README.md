@@ -7,7 +7,7 @@
 [Plate Detection](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection)
 
 [Number Detection](https://aihub.or.kr/unitysearch/list.do?kwd=%EC%9E%90%EB%8F%99%EC%B0%A8)
-자동차 차종/연식/번호판 인식용 영상이미지
+데이터셋 > 자동차 차종/연식/번호판 인식용 영상
 
 ## prerequisite
 ```bash
