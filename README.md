@@ -32,6 +32,9 @@ sudo cp dts/overlays/*.dtb* /media/fat32/overlays/
 sudo cp dts/overlays/README /media/fat32/overlays/
 ```
 ## cross compile
+
+Check the [KDIR](https://github.com/bert13069598/LicensePlateDetection/blob/3890d830f38b6a01205d5544345a8ccce080d80f/Makefile#L3) is right path to your kernel path.
+
 ```
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 ```
