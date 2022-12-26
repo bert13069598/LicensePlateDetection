@@ -33,7 +33,7 @@ keyboard input = 'c'
 ## result
 keyboard input = 'd'
 
-python3 [TFLite_detection_image_license.py](https://github.com/bert13069598/LicensePlateDetection/blob/master/TFLite_detection_image_license.py) --modeldir= --[labelmap.txt](https://github.com/bert13069598/LicensePlateDetection/blob/master/labelmap.txt) --image=test_license2.png --save_results --noshow_results --graph=[detect_plate.tflite](https://github.com/bert13069598/LicensePlateDetection/blob/master/detect_plate.tflite)
+python3 [TFLite_detection_image_license.py](https://github.com/bert13069598/LicensePlateDetection/blob/master/TFLite_detection_image_license.py) --modeldir= --labels=[labelmap.txt](https://github.com/bert13069598/LicensePlateDetection/blob/master/labelmap.txt) --image=test_license2.png --save_results --noshow_results --graph=[detect_plate.tflite](https://github.com/bert13069598/LicensePlateDetection/blob/master/detect_plate.tflite)
 
 <img src="https://github.com/bert13069598/LicensePlateDetection/blob/master/results/test_license2.png">
 
