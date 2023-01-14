@@ -1,7 +1,8 @@
 # LicensePlateDetection
-#### python version == 3.9
-
-#### kernel version == 6.0.12
+||version|
+|:---:|:---:|
+|python|3.9|
+|kernel|6.0.12|
 
 ## data resource
 [Plate Detection](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection)
