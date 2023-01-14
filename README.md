@@ -20,8 +20,8 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- bcm2711_defconfig
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs –j`nproc`
 ```
 ### SDcard porting
-#### edit ext4 => ~/rootfs
-#### edit fat32 => ~/boot
+edit ext4 &rarr; ~/rootfs <br>
+edit fat32 &rarr; ~/boot
 ```
 cd kernel
 sudo env PATH=$PATH make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-INSTALL_MOD_PATH=/media/ext4 modules_install
