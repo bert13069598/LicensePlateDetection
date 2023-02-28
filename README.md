@@ -22,6 +22,10 @@ pip3 install https://github.com/google-coral/pycoral/releases/download/v2.0.0/tf
 ## Model train
 [tensorflow tutorial](https://colab.research.google.com/github/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/Train_TFLite2_Object_Detction_Model.ipynb#scrollTo=RDQrtQhvC3oG)
 
+[plate detect train](https://colab.research.google.com/drive/1KoL3RKHDE9jElM-TvrxlWawZy8RpCVL2)
+
+[number_detect train](https://colab.research.google.com/drive/1nnTs9bU7x9JHQPQAxAqO3Wf84d9aq3yK)
+
 ## Start program with inserting module
 ```bash
 sudo insmod gpio_driver.ko
